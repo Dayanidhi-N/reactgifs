@@ -2,9 +2,11 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-black text-gray-300 text-sm px-6 py-3 flex items-center justify-between">
+    <footer className="w-full bg-gray-100 text-gray-300 text-sm px-6 py-3 flex items-center justify-between">
       {/* Left */}
-      <div>© {new Date().getFullYear()} DAYANIDHI. All rights reserved.</div>
+      <div className="text-gray-900 font-medium">
+        © {new Date().getFullYear()} DAYANIDHI. All rights reserved.
+      </div>
 
       {/* Center */}
       {/* <div className="flex items-center gap-4">
@@ -36,7 +38,7 @@ const Footer = () => {
         {/* Family Link */}
         <Link
           to="/family"
-          className="text-gray-500 hover:text-pink-400 transition underline"
+          className="text-gray-500 hover:text-pink-400 transition underline font-extrabold"
         >
           Family
         </Link>
