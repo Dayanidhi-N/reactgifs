@@ -7,7 +7,7 @@ const Footer = () => {
       <div>© {new Date().getFullYear()} DAYANIDHI. All rights reserved.</div>
 
       {/* Center */}
-      <div className="flex items-center gap-4">
+      {/* <div className="flex items-center gap-4">
         <a
           href="https://github.com/Dayanidhi-N"
           target="_blank"
@@ -24,7 +24,7 @@ const Footer = () => {
         >
           Medium
         </a>
-      </div>
+      </div> */}
 
       {/* Right */}
       <div className="flex items-center gap-4">
