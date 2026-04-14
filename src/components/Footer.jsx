@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="w-full bg-gray-100 text-gray-300 text-sm px-6 py-3 flex items-center justify-between">
-      {/* Left */}
-      <div className="text-gray-900 font-medium">
+      <div className="text-lg font-bold tracking-wide bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]">
         © {new Date().getFullYear()} DAYANIDHI. All rights reserved.
       </div>
 
@@ -28,12 +27,11 @@ const Footer = () => {
         </a>
       </div> */}
 
-      {/* Right */}
       <div className="flex items-center gap-4">
         {/* Gradient Logo */}
-        <span className="text-lg font-bold tracking-wide bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]">
+        {/* <span className="text-lg font-bold tracking-wide bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]">
           {"{ Dcode }"}
-        </span>
+        </span> */}
 
         {/* Family Link */}
         <Link

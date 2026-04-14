@@ -41,7 +41,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/family",
-        element: <Ananya />, // ✅ your family component
+        element: <Ananya />, //
       },
     ],
   },
